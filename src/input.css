@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700&family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+   .text-body1 {
+      font-size: 16px;
+      line-height: 24px;
+   }
+   .text-base {
+      font-size: 1rem;
+      line-height: 1.5rem;
+   }
+   .text-text-primary {
+      color: var(--gray-1000);
+   }
+   .css-pfmvnv {
+      display: inline-block;
+      vertical-align: -0.125em;
+   }
+   .css-1h5x3dy {
+      cursor: pointer;
+   }
+   .display-hidden {
+      display: hidden;
+   }
+}
+@layer base {
+   * {
+      box-sizing: border-box;
+   }
+   body {
+      overflow: overlay;
+   }
+   ::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+      border-radius: 10px;
+   }
+   @media (min-width: 768px) {
+      ::-webkit-scrollbar {
+         width: 8px;
+         height: 8px;
+         border-radius: 10px;
+      }
+   }
+
+   ::-webkit-scrollbar-thumb:hover {
+      @apply bg-gray-600;
+   }
+   ::-webkit-scrollbar-thumb {
+      @apply bg-gray-500;
+      border-radius: 10px;
+   }
+   ::-webkit-scrollbar-track {
+      @apply bg-gray-300;
+      border-radius: 10px;
+   }
+   details > summary {
+      list-style: none;
+   }
+   /* details > summary::-webkit-details-marker {
+        display: none;
+    } */
+}
+@layer components {
+   .btn-login-primary {
+      @apply btn btn-primary h-[32px] min-h-fit rounded-[52px]  border-none bg-blue-100 normal-case text-blue-500;
+   }
+   .btn-login-primary:hover {
+      @apply text-white;
+   }
+   .btn-sign-up-primary {
+      @apply btn btn-primary h-[32px] min-h-fit rounded-[52px] border-none bg-blue-500  bg-gradient-315 from-blue-700 to-blue-600 normal-case text-white;
+   }
+}

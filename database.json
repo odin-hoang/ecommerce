@@ -1,0 +1,675 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Thực phẩm chức năng",
+      "parentName": null,
+      "level": 1,
+      "hasChildren": true
+    },
+    {
+      "id": 2,
+      "name": "Dược mỹ phẩm",
+      "parentName": null,
+      "level": 1,
+      "hasChildren": true
+    },
+    {
+      "id": 3,
+      "name": "Chăm sóc cá nhân",
+      "parentName": null,
+      "level": 1,
+      "hasChildren": true
+    },
+    {
+      "id": 4,
+      "name": "Thuốc",
+      "parentName": null,
+      "level": 1,
+      "hasChildren": true
+    },
+    {
+      "id": 5,
+      "name": "Thiết bị y tế",
+      "parentName": null,
+      "level": 1,
+      "hasChildren": true
+    },
+    {
+      "id": 6,
+      "name": "Tiêm chủng",
+      "parentName": null,
+      "level": 1,
+      "hasChildren": false
+    },
+    {
+      "id": 7,
+      "name": "Bệnh",
+      "parentName": null,
+      "level": 1,
+      "hasChildren": false
+    },
+    {
+      "id": 8,
+      "name": "Góc sức khỏe",
+      "parentName": null,
+      "level": 1,
+      "hasChildren": false
+    },
+    {
+      "id": 9,
+      "name": "Hệ thống nhà thuốc",
+      "parentName": null,
+      "level": 1,
+      "hasChildren": false
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Vitamin & Khoáng chất",
+      "parentName": "Thực phẩm chức năng",
+      "level": 2
+    },
+    {
+      "id": 2,
+      "name": "Sinh lý - Nội tiết tố",
+      "parentName": "Thực phẩm chức năng",
+      "level": 2
+    },
+    {
+      "id": 3,
+      "name": "Cải thiện tăng cường chức năng",
+      "parentName": "Thực phẩm chức năng",
+      "level": 2
+    },
+    {
+      "id": 4,
+      "name": "Hỗ trợ điều trị",
+      "parentName": "Thực phẩm chức năng",
+      "level": 2
+    },
+    {
+      "id": 5,
+      "name": "Thần kinh não",
+      "parentName": "Thực phẩm chức năng",
+      "level": 2
+    },
+    {
+      "id": 6,
+      "name": "Chăm sóc da mặt",
+      "parentName": "Dược mỹ phẩm",
+      "level": 2
+    },
+    {
+      "id": 7,
+      "name": "Chăm sóc tóc - da đầu",
+      "parentName": "Dược mỹ phẩm",
+      "level": 2
+    },
+    {
+      "id": 8,
+      "name": "Sản phẩm từ thiên nhiên",
+      "parentName": "Dược mỹ phẩm",
+      "level": 2
+    },
+    {
+      "id": 9,
+      "name": "Chăm sóc da vùng mắt",
+      "parentName": "Dược mỹ phẩm",
+      "level": 2
+    },
+    {
+      "id": 10,
+      "name": "Giải pháp làn da",
+      "parentName": "Dược mỹ phẩm",
+      "level": 2
+    },
+    {
+      "id": 11,
+      "name": "Chăm sóc răng miệng",
+      "parentName": "Chăm sóc cá nhân",
+      "level": 2
+    },
+    {
+      "id": 12,
+      "name": "Tinh dầu các loại",
+      "parentName": "Chăm sóc cá nhân",
+      "level": 2
+    },
+    {
+      "name": "Thực phẩm - Đồ uống",
+      "parentName": "Chăm sóc cá nhân",
+      "level": "2",
+      "id": 13
+    },
+    {
+      "name": "Vệ sinh cá nhân",
+      "parentName": "Chăm sóc cá nhân",
+      "level": "2",
+      "id": 14
+    },
+    {
+      "name": "Hàng tổng hợp",
+      "parentName": "Chăm sóc cá nhân",
+      "level": "2",
+      "id": 15
+    },
+    {
+      "name": "Đồ dùng gia đình",
+      "parentName": "Chăm sóc cá nhân",
+      "level": "2",
+      "id": 16
+    },
+    {
+      "name": "Thiết bị làm đẹp",
+      "parentName": "Chăm sóc cá nhân",
+      "level": "2",
+      "id": 17
+    },
+    {
+      "name": "Tra cứu thuốc",
+      "parentName": "Thuốc",
+      "level": "2",
+      "id": 18
+    },
+    {
+      "name": "Tra cứu dược chất",
+      "parentName": "Thuốc",
+      "level": "2",
+      "id": 19
+    },
+    {
+      "name": "Tra cứu dược liệu",
+      "parentName": "Thuốc",
+      "level": "2",
+      "id": 20
+    },
+    {
+      "name": "Dụng cụ y tế",
+      "parentName": "Thiết bị y tế",
+      "level": "2",
+      "id": 21
+    },
+    {
+      "name": "Dụng cụ theo dõi",
+      "parentName": "Thiết bị y tế",
+      "level": "2",
+      "id": 22
+    },
+    {
+      "name": "Dụng cụ sơ cứu",
+      "parentName": "Thiết bị y tế",
+      "level": "2",
+      "id": 23
+    },
+    {
+      "name": "Khẩu trang",
+      "parentName": "Thiết bị y tế",
+      "level": "2",
+      "id": 24
+    }
+  ],
+  "details": [
+    {
+      "name": "Bổ sung Canxi và Vitamin D",
+      "parentName": "Vitamin & Khoáng chất",
+      "level": "3",
+      "id": 1
+    },
+    {
+      "name": "Vitamin tổng hợp",
+      "parentName": "Vitamin & Khoáng chất",
+      "level": "3",
+      "id": 2
+    },
+    {
+      "name": "Dầu cá, Omega 3, DHA",
+      "parentName": "Vitamin & Khoáng chất",
+      "level": "3",
+      "id": 3
+    },
+    {
+      "name": "Vitamin C các loại",
+      "parentName": "Vitamin & Khoáng chất",
+      "level": "3",
+      "id": 4
+    },
+    {
+      "name": "Cơ xương khớp",
+      "parentName": "Hỗ trợ điều trị",
+      "level": "3",
+      "id": 5
+    },
+    {
+      "name": "Hô hấp, ho, xoang",
+      "parentName": "Hỗ trợ điều trị",
+      "level": "3",
+      "id": 6
+    },
+    {
+      "name": "Thận, tiền liệt tuyến",
+      "parentName": "Hỗ trợ điều trị",
+      "level": "3",
+      "id": 7
+    },
+    {
+      "name": "Hỗ trợ điều trị trĩ",
+      "parentName": "Hỗ trợ điều trị",
+      "level": "3",
+      "id": 8
+    },
+    {
+      "name": "Hộ trợ điều trị gout",
+      "parentName": "Hỗ trợ điều trị",
+      "level": "3",
+      "id": 9
+    },
+    {
+      "name": "Cân bằng nội tiết tố",
+      "parentName": "Sinh lý - Nội tiết tố",
+      "level": "3",
+      "id": 10
+    },
+    {
+      "name": "Chức năng gan",
+      "parentName": "Cải thiện tăng cường chức năng",
+      "level": "3",
+      "id": 11
+    },
+    {
+      "name": "Bổ não - cải thiện trí nhớ",
+      "parentName": "Thần kinh não",
+      "level": "3",
+      "id": 12
+    },
+    {
+      "name": "Sữa rửa mặt (Kem, gel, sữa)",
+      "parentName": "Chăm sóc da mặt",
+      "level": "3",
+      "id": 13
+    },
+    {
+      "name": "Chống nắng da mặt",
+      "parentName": "Chăm sóc da mặt",
+      "level": "3",
+      "id": 14
+    },
+    {
+      "name": "Dưỡng da mặt",
+      "parentName": "Chăm sóc da mặt",
+      "level": "3",
+      "id": 15
+    },
+    {
+      "name": "Mặt nạ",
+      "parentName": "Chăm sóc da mặt",
+      "level": "3",
+      "id": 16
+    },
+    {
+      "name": "Dầu gội dầu xả",
+      "parentName": "Chăm sóc tóc - da đầu",
+      "level": "3",
+      "id": 17
+    },
+    {
+      "name": "Dầu gội trị nấm",
+      "parentName": "Chăm sóc tóc - da đầu",
+      "level": "3",
+      "id": 18
+    },
+    {
+      "name": "Dưỡng tóc, ủ tóc",
+      "parentName": "Chăm sóc tóc - da đầu",
+      "level": "3",
+      "id": 19
+    },
+    {
+      "name": "Đặc trị cho tóc",
+      "parentName": "Chăm sóc tóc - da đầu",
+      "level": "3",
+      "id": 20
+    },
+    {
+      "name": "Tinh dầu",
+      "parentName": "Sản phẩm từ thiên nhiên",
+      "level": "3",
+      "id": 21
+    },
+    {
+      "name": "Dầu dừa",
+      "parentName": "Sản phẩm từ thiên nhiên",
+      "level": "3",
+      "id": 22
+    },
+    {
+      "name": "Trị sẹo, mờ vết thâm",
+      "parentName": "Giải pháp làn da",
+      "level": "3",
+      "id": 23
+    },
+    {
+      "name": "Trị mụn",
+      "parentName": "Giải pháp làn da",
+      "level": "3",
+      "id": 24
+    },
+    {
+      "name": "Da bị khô, thiếu ẩm",
+      "parentName": "Giải pháp làn da",
+      "level": "3",
+      "id": 25
+    },
+    {
+      "name": "Nám, tàn nhang, đốm nâu",
+      "parentName": "Giải pháp làn da",
+      "level": "3",
+      "id": 26
+    },
+    {
+      "name": "Viêm da cơ địa",
+      "parentName": "Giải pháp làn da",
+      "level": "3",
+      "id": 27
+    },
+    {
+      "name": "Trị quầng thâm, bọng mắt",
+      "parentName": "Chăm sóc da vùng mắt",
+      "level": "3",
+      "id": 28
+    },
+    {
+      "name": "Xoá nếp nhăn vùng mắt",
+      "parentName": "Chăm sóc da vùng mắt",
+      "level": "3",
+      "id": 29
+    },
+    {
+      "name": "Dưỡng da mắt",
+      "parentName": "Chăm sóc da vùng mắt",
+      "level": "3",
+      "id": 30
+    },
+    {
+      "name": "Kem đánh răng",
+      "parentName": "Chăm sóc răng miệng",
+      "level": "3",
+      "id": 31
+    },
+    {
+      "name": "Bàn chải điện",
+      "parentName": "Chăm sóc răng miệng",
+      "level": "3",
+      "id": 32
+    },
+    {
+      "name": "Chỉ nha khoa",
+      "parentName": "Chăm sóc răng miệng",
+      "level": "3",
+      "id": 33
+    },
+    {
+      "name": "Chăm sóc răng",
+      "parentName": "Chăm sóc răng miệng",
+      "level": "3",
+      "id": 34
+    },
+    {
+      "name": "Nước súc miệng",
+      "parentName": "Chăm sóc răng miệng",
+      "level": "3",
+      "id": 35
+    },
+    {
+      "name": "Tinh dầu massage",
+      "parentName": "Tinh dầu các loại",
+      "level": "3",
+      "id": 36
+    },
+    {
+      "name": "Tinh dầu trị cảm",
+      "parentName": "Tinh dầu các loại",
+      "level": "3",
+      "id": 37
+    },
+    {
+      "name": "Tinh dầu xông",
+      "parentName": "Tinh dầu các loại",
+      "level": "3",
+      "id": 38
+    },
+    {
+      "name": "Nước Yến",
+      "parentName": "Thực phẩm - Đồ uống",
+      "level": "3",
+      "id": 39
+    },
+    {
+      "name": "Kẹo cứng",
+      "parentName": "Thực phẩm - Đồ uống",
+      "level": "3",
+      "id": 40
+    },
+    {
+      "name": "Nước uống không gas",
+      "parentName": "Thực phẩm - Đồ uống",
+      "level": "3",
+      "id": 41
+    },
+    {
+      "name": "Đường ăn kiêng",
+      "parentName": "Thực phẩm - Đồ uống",
+      "level": "3",
+      "id": 42
+    },
+    {
+      "name": "Trà thảo dược",
+      "parentName": "Thực phẩm - Đồ uống",
+      "level": "3",
+      "id": 43
+    },
+    {
+      "name": "Chống muỗi & côn trùng",
+      "parentName": "Đồ dùng gia đình",
+      "level": "3",
+      "id": 44
+    },
+    {
+      "name": "Đồ dùng cho bé",
+      "parentName": "Đồ dùng gia đình",
+      "level": "3",
+      "id": 45
+    },
+    {
+      "name": "Đồ dùng cho mẹ",
+      "parentName": "Đồ dùng gia đình",
+      "level": "3",
+      "id": 46
+    },
+    {
+      "name": "Dụng cụ tẩy lông",
+      "parentName": "Thiết bị làm đẹp",
+      "level": "3",
+      "id": 47
+    },
+    {
+      "name": "Dụng cụ cạo râu",
+      "parentName": "Thiết bị làm đẹp",
+      "level": "3",
+      "id": 48
+    },
+    {
+      "name": "Dung dịch vệ sinh phụ nữ",
+      "parentName": "Vệ sinh cá nhân",
+      "level": "3",
+      "id": 49
+    },
+    {
+      "name": "Vệ sinh tai",
+      "parentName": "Vệ sinh cá nhân",
+      "level": "3",
+      "id": 50
+    },
+    {
+      "name": "Băng vệ sinh",
+      "parentName": "Vệ sinh cá nhân",
+      "level": "3",
+      "id": 51
+    },
+    {
+      "name": "Nước rửa tay",
+      "parentName": "Vệ sinh cá nhân",
+      "level": "3",
+      "id": 52
+    },
+    {
+      "name": "Khăn giấy, khăn ướt",
+      "parentName": "Hàng tổng hợp",
+      "level": "3",
+      "id": 53
+    },
+    {
+      "name": "Dụng cụ khác",
+      "parentName": "Dụng cụ y tế",
+      "level": "3",
+      "id": 54
+    },
+    {
+      "name": "Dụng cụ vệ sinh mũi",
+      "parentName": "Dụng cụ y tế",
+      "level": "3",
+      "id": 55
+    },
+    {
+      "name": "Kim các loại",
+      "parentName": "Dụng cụ y tế",
+      "level": "3",
+      "id": 56
+    },
+    {
+      "name": "Máy massage",
+      "parentName": "Dụng cụ y tế",
+      "level": "3",
+      "id": 57
+    },
+    {
+      "name": "Túi chườm",
+      "parentName": "Dụng cụ y tế",
+      "level": "3",
+      "id": 58
+    },
+    {
+      "name": "Khẩu trang y tế",
+      "parentName": "Khẩu trang",
+      "level": "3",
+      "id": 59
+    },
+    {
+      "name": "Khẩu trang vải",
+      "parentName": "Khẩu trang",
+      "level": "3",
+      "id": 60
+    },
+    {
+      "name": "Máy đo huyết áp",
+      "parentName": "Dụng cụ theo dõi",
+      "level": "3",
+      "id": 61
+    },
+    {
+      "name": "Nhiệt kế",
+      "parentName": "Dụng cụ theo dõi",
+      "level": "3",
+      "id": 62
+    },
+    {
+      "name": "Băng y tế",
+      "parentName": "Dụng cụ sơ cứu",
+      "level": "3",
+      "id": 63
+    },
+    {
+      "name": "Cồn và nước sát trùng",
+      "parentName": "Dụng cụ sơ cứu",
+      "level": "3",
+      "id": 64
+    },
+    {
+      "name": "Bông y tế",
+      "parentName": "Dụng cụ sơ cứu",
+      "level": "3",
+      "id": 65
+    },
+    {
+      "name": "Xịt giảm đau",
+      "parentName": "Dụng cụ sơ cứu",
+      "level": "3",
+      "id": 66
+    },
+    {
+      "name": "Chăm sóc vết thương",
+      "parentName": "Dụng cụ sơ cứu",
+      "level": "3",
+      "id": 67
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "alt": "Vui lễ lớn giảm nhiều hơn",
+      "imageUrl": "https://cdn.nhathuoclongchau.com.vn/unsafe/1080x0/filters:quality(90)/https://cms-prod.s3-sgn09.fptcloud.com/Banner_Web_PC_1610x492_ff4a86471c.png",
+      "imageUrlMobile": "https://cdn.nhathuoclongchau.com.vn/unsafe/1080x0/filters:quality(90)/https://cms-prod.s3-sgn09.fptcloud.com/Banner_Web_Mobi640x320_e80f26f0ce.png"
+    },
+    {
+      "imageUrl": "https://cdn.nhathuoclongchau.com.vn/unsafe/1080x0/filters:quality(90)/https://cms-prod.s3-sgn09.fptcloud.com/GOI_VC_CHO_TRE_01_d4efa44cc7.png",
+      "imageUrlMobile": "https://cdn.nhathuoclongchau.com.vn/unsafe/1080x0/filters:quality(90)/https://cms-prod.s3-sgn09.fptcloud.com/640x320_47f588ca90.jpg",
+      "title": "Tiêm chủng vắc xin",
+      "id": 2
+    },
+    {
+      "imageUrl": "https://cdn.nhathuoclongchau.com.vn/unsafe/1080x0/filters:quality(90)/https://cms-prod.s3-sgn09.fptcloud.com/Banner_Destop_1_3b1aa4359f.jpg",
+      "title": "Brauer",
+      "imageUrlMobile": "https://cdn.nhathuoclongchau.com.vn/unsafe/1080x0/filters:quality(90)/https://cms-prod.s3-sgn09.fptcloud.com/M1_375x188_9f4cf0b250.png",
+      "id": 3
+    },
+    {
+      "imageUrl": "https://cdn.nhathuoclongchau.com.vn/unsafe/1080x0/filters:quality(90)/https://cms-prod.s3-sgn09.fptcloud.com/Banner_Desk_805x246_ff59ae67b5.jpg",
+      "title": "Vi chất dinh dưỡng từ Anh quốc",
+      "imageUrlMobile": "https://cdn.nhathuoclongchau.com.vn/unsafe/1080x0/filters:quality(90)/https://cms-prod.s3-sgn09.fptcloud.com/Banner_Mobile_a947a6bbf0.jpg",
+      "id": 4
+    },
+    {
+      "imageUrl": "https://cdn.nhathuoclongchau.com.vn/unsafe/1080x0/filters:quality(90)/https://cms-prod.s3-sgn09.fptcloud.com/Banner_Web_PC_1610x492_ca44e10973.png",
+      "title": "Tiêu hoá khoẻ dạ dày",
+      "imageUrlMobile": "https://cdn.nhathuoclongchau.com.vn/unsafe/1080x0/filters:quality(90)/https://cms-prod.s3-sgn09.fptcloud.com/Banner_Web_Mobi_640x320_b409a3d39c.png",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "brand": "Abbott",
+      "name": "Sữa Ensure Vani Abbott dạng lỏng bổ sung dinh dưỡng (237ml)",
+      "rate": 4.6,
+      "reviews": 3,
+      "comments": 17,
+      "prices": [
+        {
+          "originalPrice": 38000,
+          "unit": "Chai"
+        },
+        {
+          "originalPrice": 38000,
+          "unit": "Lốc"
+        },
+        {
+          "priceOnSale": 894000,
+          "originalPrice": 912000,
+          "unit": "Thùng"
+        }
+      ],
+      "directory": "Sữa"
+    }
+  ]
+}
