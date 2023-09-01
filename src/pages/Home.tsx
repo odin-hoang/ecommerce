@@ -96,7 +96,7 @@ const Home: React.FC = () => {
                         onClick={handleNext}
                      />
                      <div className='absolute -bottom-6 left-[50%] z-20 flex -translate-x-[50%] items-center justify-center gap-2 md:bottom-2 '>
-                        {banner.listBanner.map((banner, index) => (
+                        {banner.listBanner.map((_, index) => (
                            <span
                               className={cn('h-4 w-4 cursor-pointer rounded-[50%] bg-zinc-300 md:h-2 md:w-2', {
                                  'bg-zinc-400': active === index,
